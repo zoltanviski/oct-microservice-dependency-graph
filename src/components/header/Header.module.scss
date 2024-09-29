@@ -1,0 +1,9 @@
+@import "../../theme/theme.scss";
+
+.navbar {
+  display: flex;
+  height: 60px;
+  padding-left: $appMargin;
+  padding-right: $appMargin;
+  background-image: linear-gradient(to right, #3f9a1e, #75c458);
+}

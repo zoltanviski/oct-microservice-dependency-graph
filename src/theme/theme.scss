@@ -1,0 +1,74 @@
+@import "./colors.scss";
+@import "bootstrap/scss/bootstrap.scss";
+
+$appMargin: 100px;
+
+.containerBox {
+  background-color: #36383c !important;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 25px !important;
+  border: none !important;
+  color: white !important;
+
+  .card-header {
+    padding: 20px 20px !important;
+    background-color: #36383c !important;
+    border: none !important;
+    border-bottom: none !important;
+    border-radius: 25px 25px 0 0 !important;
+    font-size: 1.2rem !important;
+  }
+
+  .card-body {
+    padding: 60px !important;
+  }
+}
+
+body {
+  margin: 0;
+  color: white !important;
+  background-color: #2a2b2e;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+  cursor: pointer !important;
+  font-size: 1.5rem !important;
+  color: $primary !important;
+}
+
+.icon:hover {
+  color: $primaryLight !important;
+}
+
+button {
+  background-color: $primary !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 10px 20px !important;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+}
+
+button:hover {
+  background-color: $primaryLight !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+li,
+div {
+  color: white !important;
+}
